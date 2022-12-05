@@ -1,4 +1,4 @@
-#! bin/bash
+#!bin/bash
 
 cmd=$1
 db_username=$2
@@ -52,5 +52,3 @@ case $cmd in
     ;;
   esac
 
-
-exit 0``
