@@ -19,7 +19,7 @@ crontab -e
 
 ## Implementation
 For the implementation of this project background knowledge in; SSH, Bash, CLI, regex, docker and RDBMS was required.
-After background knowledge is gained, a docker container to host a psql instance where data for monitoring can be hosted is created, done through the `pqsl_docker.sh` file.
+After background knowledge is gained, a docker container to host a postgresql instance where data for monitoring can be hosted is created, done through the `pqsl_docker.sh` file.
 Then two tables used to persist data and to perform data analytics were created `ddl.sql` displays the details of these tables.
 The next step is to populate the tables with the data from each node bash scripts `host_info.sh` and `host_usage.sh` to grab the system details from the respective node and insert this data into the schema.
 ## Architecture
@@ -52,9 +52,8 @@ The `psql -h localhost -U postgres -d host_agent -f sql/ddl.sql` script was used
 To test the bash scripts located in `host_info` and `host_usage` for DDL each one was entered into the CLI in the following format: `echo "$command"`
  then added to their respective files.
 ## Deployment
-
-This project was deployed by with creating and initializing a docker container with a postgersql instance and crontab to execute the `host_usage.sh` script every minute
-Github used to manage the creating and merging of features for the MVP.
+This project was deployed by creating and initializing a docker container with a PostgreSQL instance and crontab to execute the `host_usage.sh` script every minute.
+GitHub is used to manage the creation and merging of features for the MVP.
 
 ## Improvements
 - update hardware info within a certain time period
