@@ -1,7 +1,7 @@
 
 
 CREATE TABLE IF NOT EXISTS host_info (
-    id SERIAL NOT NULL ,
+    id SERIAL IDENTITY(1,1) NOT NULL,
     hostname VARCHAR NOT NULL,
     cpu_number int NOT NULL,
     cpu_architechture VARCHAR NOT NULL,
