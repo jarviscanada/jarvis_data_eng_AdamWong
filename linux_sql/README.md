@@ -28,9 +28,13 @@ The next step is to populate the tables with the data from each node bash script
 
 ## Scripts
 ````bash
-psql_docker.sh
+# used to start|stop|create container to host PostgreSQL instance 
+psql_docker.sh 
+#parses hardware information from the node
 host_info.sh
+#parse the systems usage data from the node
 host_usage.sh
+#used to keep running host_usage.sh to keep it updating every minute
 crontab
 
 ````
