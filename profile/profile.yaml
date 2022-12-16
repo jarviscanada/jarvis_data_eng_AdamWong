@@ -1,7 +1,7 @@
 # Preferred name (Characters only)
 name: "Adam Wong"
 # Your GitHub repo root URL
-github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_AdamWong
 
 # Introduce yourself (80-120 words)
 # Suggestions: you should 
@@ -9,54 +9,59 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo
 # 2) explain your passion for the role you are looking for (e.g. developer, BSA, QA, tech support, etc.)
 # 3) mention what kind of role you are looking for
 # 4) briefly talk about your qualifications (soft and tech) to justify why the hiring manager should hire your 
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
-
+summary: "Throughout my academic and work experience, I have been introduced to a wide variety of people and technologies. With each experience, my overall mindset grew to fit each situation after determining which areas I needed to improve upon to get the most out of the experience. Whether it was learning how to communicate empathetically, efficiently, and concisely for a presentation or project meeting, analyzing and dissecting technologies to repurpose them for use in another project, or even learning when to ask for help after hitting a wall to ensure the project would be delivered on time. I choose to constantly improve with whatever comes my way. I have always been passionate about constant improvement and creation, and no other role is more suited for this type of passion than a developer role. "
 skills:
   # Please include 
   #     1)soft skills (e.g. elicitation, communicaiton, collaberation, interpersonal, etc ) 
   #     2) business tools (such as Excel, Viso, etc.)
   Business Skills:
-    - Donec
-    - Donec
-    - Donec
-    - fermentum
-    - Donec
+    - Communication
+    - Collaberation
+    - Critical Thinking
+    - Perserverance
+    - Excel
+    - Word
+
   # Please add more data related skills, such as Python, Tableau, R, Matlab, AI, ML, Statistics, etc.
   # You can also add some programming skills, such as programming languages, GIT, Linux, Cloud Platform, tools, etc.
   Technical Skills:
     - RDBMS/SQL
     - Data Modeling/Mapping
     - Data Analytics
+    - Linux
+    - GIT
+    - Python
+    - Java
+    - Docker
+    - Bash
+    - IOT
 
 # List of Jarvis projects
 # Please describe your resume from a BSA perspective (e.g. requirement elicitation, scope, stakeholder, coordination, diagrams)
 jarvis_projects:
-  - name: "Linux Cluster Resource Monitoring App"
+  - name: "Linux Cluster Monitoring Agent"
     git_url: "/linux_sql"
     # Focus on BSA work instead of development work
     # Include the following keywords: BRD, SRD, Elicitation, stakeholder, reqruiement, analysis, RDBMS, SQL, data modeling, SLA
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
-    # Focus on BSA work instead of development work
-    # e.g. solve business problem, requirement, data sources, analytics, stakeholders, documentation
-    description: ""
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: ""
+    description: "Many companies/stakeholders which utilize Linux clusters to host processes or persist data need the constant analysis of their cluster of nodes in order to ensure the requirements listed in the associated BRD (Business Requirements Document) are met. The Linux Cluster Monitoring Agent greatly assists in this matter. Through the elicitation of the system(node) attributes and usage, modeling the data using SQL and an RDBMS schema we essentially create a SRD (System Reference Document). Allowing stakeholders to identifiy if any modifications to their current cluster is needed to increase the amount of nodes if the performance is lacking, or decrease the amount of nodes if those resources are not being utilized. With this the company which implements this can ensure the SLA between them and their stakeholders is satisified." 
 
 # List of personal or academic projects
 # Please focus on transferable skills, such as soft skills and data related skills
 highlighted_projects:
     #project name
-  - name: "Web app for resturant"
+    
+  - name: "Embedded Systems SOFE4590u"
     #URL is optional
-    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
+    #The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "This project involved implementing a facial detection system using OpenCV in a QEMU emulator. Installation and loading of the modules necessary were particularly difficult to complete as the project continuously produced errors. Debugging was a lengthy process and much research was needed to diagnose what was the particular issue and discern what would be the best solution given the modules' purpose. One thing I gained from this experience was improving my research capability."
+  - name: "YourSpot"
+    #URL is optional
+    git_url: "https://github.com/876ad/yourSpot"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Machine Learning"
-    git_url:
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    description: "Everyone has difficulty choosing where and what to eat in this day and age. To alleviate this stress my group and I wished to create a web app. After research and deliberation on what was possible given the time frame, we decided to create YourSpot. YourSpot grabs the list of the restaurants in your area using google API and generates information on each dish displaying allergens, reviews, and spice levels. To accomplish this within the given time my group had broken up the task list, and conducted regular meetings to ensure that the progression was acceptable. This was implemented using a python flask backend, SQL to hold the data in tables, and HTML/CSS to style the webpages"
+  - name: "EMI calculator"
+    git_url: "https://github.com/876ad/mobileAssignment"
+    description: "Created an EMI (Equated Monthly Installment) calculator android mobile app. This was my first android development project and while it was easier due to my background knowledge in Java there was a large amount of time spent debugging due to the small nuanced details of the constraints and information parsing. It was only with the thorough study of the developer documentation for Android Studio that allowed me to complete the views and layouts necessary for the EMI calculator."
 
 # List of professional experience
 # Please focus on transferable skills, such as soft skills and data related skills
@@ -64,44 +69,30 @@ professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
     company: "Jarvis"
-    duration: "2020-present"
+    duration: "2022-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     # Avoid the following terms: training, learning, etc. Instead, you should focus on the work, such as worked on XYY; Wrote ABC document; Analyzed QWE project;
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-  - title: "Tutor"
-    company: "XYZ Company"
-    duration: "2019"
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+    description: "Deployed a Linux/SQL project which monitors the system and usage attributes of each node to assess the viability of the current cluster. Through the constant and open communication of the Jarvis team, I was able to complete the project with little deviation, troubleshoot without worry, and ensure the project was implemented in the manner which was intended by the written user stories. "
+  - title: "Assistant caretaker"
+    company: "JSPCA"
+    duration: "2014"
+    description: "Each day was dedicated to the care of cats and dogs both young and old who have either been abused or had been living in the streets, persisting in attempting to give care when the animals stopped trusting people, communicating with potential owners and analyzing to ensure that they were the right fit for the animal given the animal's temperament."
 
 #List of edcuation
 education: 
-  - school_name: "XYZ university"
-    duration: "2012-2016"
-    degree: "Bachelor of Applied Sciences"
-    department: "Electrical and Computer Engineering"
+  - school_name: "OntarioTech university"
+    duration: "2017-2022"
+    degree: "Bachelor of Engineering"
+    department: "Engineering and Applied Science"
     # optional
     awards_achievements: 
-      - "Scholarship"
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
-      - "GPA: 3.8/4.0"
-  - school_name: "XYZ university"
-    duration: "2016-2018"
-    degree: "Master of Engineering"
-    department: "Electrical and Computer Engineering"
-    awards_achievements: 
+      - "Dean's List (2020, 2021)"
+      - "GPA: 3.0." 
 
 #Optional section
 others:
     #category
-  - title: "Certificates"
+  - title: "Hobbies/activities"
     #list of items
     bullets:
-      - "Udacity Machine Learning (2019)"
-  - title: "Awards"
-    bullets:
-      - "Winner"
-  - title: "Activities/Hobbies"
-    bullets:
-      - "Basketball player; joined xyz club"
-      - "Competitive gaming; compete for xyz"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      - "Volunteer, JSPCA; helping rehome and provide care for young animals"
