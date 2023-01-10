@@ -9,11 +9,11 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_AdamWong
 # 2) explain your passion for the role you are looking for (e.g. developer, BSA, QA, tech support, etc.)
 # 3) mention what kind of role you are looking for
 # 4) briefly talk about your qualifications (soft and tech) to justify why the hiring manager should hire your 
-summary: "Throughout my academic and work experience, I have been introduced to a wide variety of people and technologies. With each experience, my overall mindset grew to fit each situation after determining which areas I needed to improve upon to get the most out of the experience. Whether it was learning how to communicate empathetically, efficiently, and concisely for a presentation or project meeting, analyzing and dissecting technologies to repurpose them for use in another project, or even learning when to ask for help after hitting a wall to ensure the project would be delivered on time. I choose to constantly improve with whatever comes my way. I have always been passionate about constant improvement and creation, and no other role is more suited for this type of passion than a developer role. "
+summary: "Throughout my academic and work experience, I have been introduced to a wide variety of people and technologies. With each experience, my overall mindset grew to fit each situation after determining which areas I needed to improve upon to get the most out of the experience. Whether it was learning how to communicate empathetically and efficiently with a difficult teammate. Learning to communicate concisely for a presentation or project meeting, analyzing and dissecting technologies to repurpose them for use in another project, or even learning when to ask for help after hitting a wall to ensure the project would be delivered on time, such as in my capstone project. I choose to constantly improve with whatever comes my way. I have always been passionate about constant improvement and creation, and no other role is more suited for this type of passion than a developer role "
 skills:
   # Please include 
   #     1)soft skills (e.g. elicitation, communicaiton, collaberation, interpersonal, etc ) 
-  #     2) business tools (such as Excel, Viso, etc.)
+  #    2) business tools (such as Excel, Viso, etc.)
   Business Skills:
     - Communication
     - Collaberation
@@ -43,7 +43,7 @@ jarvis_projects:
     git_url: "/linux_sql"
     # Focus on BSA work instead of development work
     # Include the following keywords: BRD, SRD, Elicitation, stakeholder, reqruiement, analysis, RDBMS, SQL, data modeling, SLA
-    description: "Many companies/stakeholders which utilize Linux clusters to host processes or persist data need the constant analysis of their cluster of nodes in order to ensure the requirements listed in the associated BRD (Business Requirements Document) are met. The Linux Cluster Monitoring Agent greatly assists in this matter. Through the elicitation of the system(node) attributes and usage, modeling the data using SQL and an RDBMS schema we essentially create a SRD (System Reference Document). Allowing stakeholders to identifiy if any modifications to their current cluster is needed to increase the amount of nodes if the performance is lacking, or decrease the amount of nodes if those resources are not being utilized. With this the company which implements this can ensure the SLA between them and their stakeholders is satisified." 
+    description: "As the sole developer on this project, my responsibility was to elicit the system(node) attributes and usage using regex commands, model the data using SQL and an RDBMS schema create an SRD (System Reference Document). Allowing stakeholders to identify if any modifications to their current cluster are needed, increase the number of nodes if the performance is lacking, or decrease the number of nodes if those resources are not being utilized. Using docker to initialize a PostgreSQL database to hold the values from the Linux cluster." 
 
 # List of personal or academic projects
 # Please focus on transferable skills, such as soft skills and data related skills
@@ -53,15 +53,15 @@ highlighted_projects:
   - name: "Embedded Systems SOFE4590u"
     #URL is optional
     #The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "This project involved implementing a facial detection system using OpenCV in a QEMU emulator. Installation and loading of the modules necessary were particularly difficult to complete as the project continuously produced errors. Debugging was a lengthy process and much research was needed to diagnose what was the particular issue and discern what would be the best solution given the modules' purpose. One thing I gained from this experience was improving my research capability."
+    description: "As the sole developer on this project, my responsibility was to implement a facial detection system using OpenCV in a QEMU emulator. The first step in accomplishing this was to install the QEMU modules after determining the architecture of the system and the desired OS to be emulated. Constant debugging and much research were required to diagnose the bugs that came with the installation of QEMU and discern the best solution given the modules' purpose of operating OpenCV. This project allowed me to become more comfortable with the QEMU documentation and reading documentation as a whole. "
   - name: "YourSpot"
     #URL is optional
     git_url: "https://github.com/876ad/yourSpot"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Everyone has difficulty choosing where and what to eat in this day and age. To alleviate this stress my group and I wished to create a web app. After research and deliberation on what was possible given the time frame, we decided to create YourSpot. YourSpot grabs the list of the restaurants in your area using google API and generates information on each dish displaying allergens, reviews, and spice levels. To accomplish this within the given time my group had broken up the task list, and conducted regular meetings to ensure that the progression was acceptable. This was implemented using a python flask backend, SQL to hold the data in tables, and HTML/CSS to style the webpages"
+    description: "As the sole developer on this project, my responsibility was to implement a facial detection system using OpenCV in a QEMU emulator. The first step in accomplishing this was to install the QEMU modules after determining the architecture of the system and the desired OS to be emulated. Constant debugging and much research were required to diagnose the bugs that came with the installation of QEMU and discern the best solution given the modules' purpose of operating OpenCV. This project allowed me to become more comfortable with the QEMU documentation and reading documentation as a whole. "
   - name: "EMI calculator"
     git_url: "https://github.com/876ad/mobileAssignment"
-    description: "Created an EMI (Equated Monthly Installment) calculator android mobile app. This was my first android development project and while it was easier due to my background knowledge in Java there was a large amount of time spent debugging due to the small nuanced details of the constraints and information parsing. It was only with the thorough study of the developer documentation for Android Studio that allowed me to complete the views and layouts necessary for the EMI calculator."
+    description: "My role for this project was the android application developer, developing an EMI calculator. The first step was creating the different layouts and views for the UI layer where the user will be greeted and on the next page the user will be allowed to enter the data to calculate their EMI. In creating these layouts and views, fixing the constraints to ensure the UI is viewed clearly on every android device and assignment of the UI elements was necessary. The next step was to handle the user events (inputs) by modifying the state of a UI element using an event listener allowing for the return of the EMI value. "
 
 # List of professional experience
 # Please focus on transferable skills, such as soft skills and data related skills
